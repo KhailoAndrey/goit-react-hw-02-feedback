@@ -1,16 +1,11 @@
+import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
+import { Wrapper, Title } from './FeedbackOptions/FeedbackOptions.styled';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Wrapper>
+      <Title>Please leave feedback</Title>
+      <FeedbackOptions />
+    </Wrapper>
   );
 };
